@@ -17,32 +17,39 @@
         @include('layouts.head-css')
     </head>
     <body>
-        <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader -->
+      
       <!-- header start-->
         @include('layouts.header')
       <!-- end header -->
-      <!-- banner start-->
-        @include('layouts.banner')
-      <!-- end banner -->
-      <!-- about start -->
-        @include('layouts.about')
-      <!-- about end -->
-      <!-- productlisting start -->
-        @include('layouts.productlisting')
-      <!-- end productlisting -->
-      <!-- Our shop start -->
-        @include('layouts.ourshop')
-      <!-- end Our shop  -->
-      <!-- clients start -->
-        @include('layouts.clients')
-      <!-- end clients -->
-      <!-- contact start -->
-        @include('layouts.contact')
-      <!-- end contact  -->
+
+      @if(View::hasSection('contact'))
+        @yield('contact')
+      @else
+        <!-- banner start-->
+          @include('layouts.banner')
+        <!-- end banner -->
+
+        <!-- about start -->
+          @include('layouts.about')
+        <!-- about end -->
+
+        <!-- productlisting start -->
+          @include('layouts.productlisting')
+        <!-- end productlisting -->
+
+        <!-- Our shop start -->
+          @include('layouts.ourshop')
+        <!-- end Our shop  -->
+
+        <!-- clients start -->
+          @include('layouts.clients')
+        <!-- end clients -->
+
+        <!-- contact start -->
+          @include('layouts.contact')
+        <!-- end contact  -->
+      @endif
+
       <!--  footer start -->
         @include('layouts.footer')
       <!-- end footer -->

@@ -1,2 +1,2 @@
 @extends('layouts.master')
-@section('title', 'OnlineShop')
+@section('title', 'Shawl House')

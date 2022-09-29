@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer> -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -15,10 +15,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                    <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                    <p>© 2022 All Rights Reserved. Design by Shawl House</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+<!-- </footer> -->

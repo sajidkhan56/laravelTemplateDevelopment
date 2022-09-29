@@ -19,19 +19,19 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="{{ url('home/page') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="{{ url('about/page') }}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="glasses.html">Our Glasses</a>
+                                    <a class="nav-link" href="{{ url('glasses/page') }}">Our Glasses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="shop.html">Shop</a>
+                                    <a class="nav-link" href="{{ url('shop/page') }}">Shop</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                    <a class="nav-link" href="{{ url('contact/page') }}">Contact Us</a>
                                 </li>
                                 <li class="nav-item d_none login_btn">
                                     <a class="nav-link" href="#">Login</a>
