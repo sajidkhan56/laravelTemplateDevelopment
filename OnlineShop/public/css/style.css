@@ -280,7 +280,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #03cafc;
+     color: #6c757d78;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -288,7 +288,7 @@ button {
 }
 
 .login_btn a {
-     background: #03cafc;
+     background: #6c757d78;
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
@@ -331,7 +331,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #070404;
+     color: #333333;
      font-size: 60px;
      line-height: 76px;
      padding-bottom: 45px;
@@ -433,7 +433,7 @@ button {
 /** about section **/
 
 .about {
-     border-bottom: #000 solid 1px;
+     border-bottom: #333333 solid 1px;
      padding: 130px 0 90px 0;
 }
 
@@ -458,7 +458,7 @@ button {
 }
 
 .about .titlepage {
-     border: #000 solid 1px;
+     border: #333333 solid 1px;
      padding: 40px 40px;
      z-index: 10018;
      background: #fff;
@@ -504,7 +504,7 @@ button {
 }
 
 .blu {
-     color: #03cafc;
+     color: #6c757d78;
      text-transform: initial;
 }
 
@@ -569,7 +569,7 @@ button {
 
 .shop .max_width {
      text-align: left;
-     background: #030404;
+     background: #333333;
      height: 100%;
      padding-top: 86px;
      padding-left: 50px;
@@ -746,7 +746,7 @@ button {
 }
 
 .send_btn {
-     background: #03cafc;
+     background: #6c757d78;
      font-weight: 600;
      font-size: 18px;
      width: 100%;
