@@ -11,7 +11,7 @@
                     <div class="carousel-caption">
                         <div class="text-bg">
                             <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
-                            <figure><img src="images/banner_img.png" alt="#"/></figure>
+                            <figure><img src="{{asset('images/banner_img.png')}}" alt="#"/></figure>
                             <a class="read_more" href="#">Shop Now</a>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                     <div class="carousel-caption">
                         <div class="text-bg">
                             <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
-                            <figure><img src="images/banner_img.png" alt="#"/></figure>
+                            <figure><img src="{{asset('images/banner_img.png')}}" alt="#"/></figure>
                             <a class="read_more" href="#">Shop Now</a>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                     <div class="carousel-caption">
                         <div class="text-bg">
                             <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
-                            <figure><img src="images/banner_img.png" alt="#"/></figure>
+                            <figure><img src="{{asset('images/banner_img.png')}}" alt="#"/></figure>
                             <a class="read_more" href="#">Shop Now</a>
                         </div>
                     </div>

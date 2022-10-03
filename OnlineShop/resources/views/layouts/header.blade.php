@@ -6,7 +6,7 @@
                     <div class="full">
                     <div class="center-desk">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                            <a href="index.html"><img src="{{asset('images/logo.png')}}" alt="#" /></a>
                         </div>
                     </div>
                     </div>
@@ -39,9 +39,9 @@
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="#">Register</a>
                                 </li>
-                                <li class="nav-item d_none sea_icon">
+                                <!-- <li class="nav-item d_none sea_icon">
                                     <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </nav>

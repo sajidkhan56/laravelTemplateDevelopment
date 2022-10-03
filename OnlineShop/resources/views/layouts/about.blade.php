@@ -3,7 +3,7 @@
         <div class="row d_flex">
             <div class="col-md-5">
                 <div class="about_img">
-                    <figure><img src="images/about_img.png" alt="#"/></figure>
+                    <figure><img src="{{asset('images/about_img.png')}}" alt="#"/></figure>
                 </div>
             </div>
             <div class="col-md-7">

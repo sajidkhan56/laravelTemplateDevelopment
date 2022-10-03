@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <ul class="location_icon">
-                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Location</li>
-                    <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +01 1234567890</li>
-                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><br>I8 Markaz Islamabad</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><br> +92 3489006393</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><br>OnlineShop@gmail.com</li>
                     </ul>
                 </div>
             </div>
@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                    <p>© 2022 All Rights Reserved. Design by Shawl House</p>
+                    <p>© 2022 All Rights Reserved. Design by OnlineShop</p>
                     </div>
                 </div>
             </div>
